@@ -7,7 +7,7 @@
 
 ![](https://img.shields.io/badge/Rishu%20srivastava-BCA-orange)
 
-# **Project-12**
+# **Project-12** [Live Link](https://ineuron-project-12.netlify.app/)
 >- Skills gained in this project
  >- I learned about vh and vw, object-poisiton 
  >- I learned order property in flexbox
