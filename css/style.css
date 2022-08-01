@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header{
+    height:70vh;
+    background-color: #636C79;
+}
+nav .list{
+    float:right;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+nav .list .list-item{
+    list-style-type: none;
+    position: relative;
+    bottom: 30px;
+    color: #f5f5f5;
+}
+.list button{
+  padding: 5px 35px;
+  margin-left: 50px;
+  text-align: center;
+  border: 1px solid #8bb7a2;
+  background-color: transparent;
+  color: #f5f5f5;
+}
+.right {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   position: relative;
+   bottom: 250px;
+   text-align: center;
+   margin-left: 150px;
+}
+.right h1{
+    font-size: 50px;
+    color: #f5f5f5;
+}
+.right {
+    color: #cccccc;
+}
+.img img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 240px;
+    left: 140px;
+}
+form input[type="text"]{
+    padding: 10px 90px;
+}
+form button{
+    padding: 10px 30px;
+    position: relative;
+    right: 130px;
+    border: none;
+    background-color: #8bb7a2;
+    color: #f5f5f5;
+}
+i{
+   position: relative;
+   right: 280px;
+}
+.connecting-wrapper {
+    background-color: #f5f5f5;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.connecting {
+    max-width: 1250px;
+    margin: 110px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.connecting h2 {
+    font-family: "Raleway";
+    font-size: 2.6rem;
+    text-align: center;
+    color: #424242;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+ .connecting-right .connecting-img {
+    width: 78rem;
+    height: 550px;
+    overflow: hidden;
+}
+ .connecting-right .connecting-img img {
+    width:70vw;
+    height: 70vh;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 150px;
+}
+ .connecting-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.connecting-left .connecting-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.connecting-left .connecting-stats .star h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.connecting-left .connecting-stats .star p {
+    font-weight: 600;
+    color: #424242;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-size: 17px;
+}
+.webdesign-wrapper {
+    background-color: #f5f5f5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 230vh;
+    padding-top: 150px;
+    
+    
+}
+.webdesign-wrapper h2 {
+    font-family: "Raleway";
+    font-size: 2.9rem;
+    text-align: center;
+    color: #1b1b1b;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.webdesign {
+    max-width: 78rem;
+    margin: 25px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+.webdesign .webdesign-left h4 {
+    font-size: 2.5rem;
+    color: #1b1b1b;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.webdesign .webdesign-left p {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.webdesign-right .webdesign-img {
+    width: 34rem;
+    height: 600px;
+    overflow: hidden;
+}
+.webdesign-right .webdesign-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+
+/*--------------------------------- marketing section ----------------------------*/
+
+.marketing-wrapper {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 350vh;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    
+}
+.marketing {
+    max-width: 78rem;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+.marketing .marketing-left {
+    order: 2;
+}
+.marketing .marketing-left h4 {
+    font-size: 2.5rem;
+    color: #1b1d21;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.marketing .marketing-left p {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.marketing-right {
+    order: 1;
+}
+.marketing-right .marketing-img {
+    width: 34rem;
+    height: 500px;
+    overflow: hidden;
+}
+.marketing-right .marketing-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* judging */
+.judging {
+    max-width: 78rem;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.judging .judging-left h4 {
+    font-size: 2.5rem;
+    color: #1b1d21;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.judging .judging-left p {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.judging-right .judging-img {
+    width: 34rem;
+    height: 500px;
+    overflow: hidden;
+}
+.judging-right .judging-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.btn{
+    border: none;
+    color: #fff;
+}
+.btn-outline {
+    border: 1px solid #8bb7a2;
+    background-color: transparent;
+}
+.btn-fill {
+    background-color: #8bb7a2;
+}
+.btn-lg {
+    padding: 18px 38px;
+    font-size: 16px;
+}
+/* team section */
+.team-section {
+    max-width: 78rem;
+    margin: 30px auto 30px auto;
+    padding-top: 120px;
+}
+.team-section .team-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-section .team-headline h1 {
+    font-size: 2.8rem;
+    font-family: "Raleway";
+    color: #1b1d21
+}
+.team-section .team-headline p {
+    font-size: 1.2rem;
+    color: #8c8c8c;
+    line-height: 30px;
+    font-weight: 500;
+}
+.tema-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.tema-info .team-card .team-image {
+    width: 350px;
+    height: 440px;
+    overflow: hidden;
+}
+.tema-info .team-card .team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.tema-info .team-card h4 {
+    font-size: 1.2rem;
+    color: #1b1d21;
+    padding: 15px 0px;
+}
+.tema-info .team-card p {
+    color: #424242;
+}
+.team-section .team-btn {
+    text-align: center;
+    padding-top: 50px;
+}
+.team-section .team-btn button {
+    padding: 20px 60px;
+}
+
+
+/*--------------------------- footer section --------------------*/
+
+.footer-wraper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #10181d;
+    top: 700vh;
+}
+.footer-wraper .footer {
+    max-width: 78rem;
+    margin: 0 auto;
+    color: #fff;
+}
+.footer-wraper .footer .footer-logo {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+}
+.footer-wraper .footer .footer-logo .logo img{
+    width: 80%;
+}
+.footer-wraper .footer .footer-logo ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.footer-wraper .footer .footer-logo ul li span {
+    background-color: rgba(255, 255, 255, 0.093);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 500px;
+}
+.footer-wraper .footer .footer-logo ul li span i{
+  margin-left: 560px;
+}
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.footer-navbar .navbar-list h4 {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    
+    font-weight: normal;
+}
+.footer-navbar .navbar-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-navbar .navbar-list ul li {
+    cursor: pointer;
+}
+.footer .hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.093);
+    width: 100%;
+    display: block;
+}
+body{
+    overflow-x: hidden;
+}
